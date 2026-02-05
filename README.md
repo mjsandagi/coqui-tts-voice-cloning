@@ -17,9 +17,10 @@ A practical implementation of voice cloning using Coqui Text-To-Speech (XTTS v2)
 - PyTorch 2.10.0
 - Coqui TTS (from git repository)
 
-Create a venv and install dependencies:
+Clone the repository, create a venv and install dependencies:
 
 ```bash
+git clone https://github.com/mjsandagi/coqui-tts-voice-cloning.git
 python -m venv venv # Ensure that you are using Python 3.10 - 3.11
 source venv/bin/activate  # On Windows: venv\Scripts\Activate.ps1
 pip install -r requirements.txt
